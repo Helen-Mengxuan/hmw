@@ -20,7 +20,7 @@
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 900px;
       margin: 0 auto;
       padding: 20px;
     }
@@ -35,8 +35,8 @@
 
     header img {
       border-radius: 50%;
-      width: 130px;
-      height: 130px;
+      width: 150px;
+      height: 150px;
       object-fit: cover;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
@@ -99,6 +99,10 @@
       margin-top: 60px;
     }
 
+    {
+      color: 115272
+    }
+
     @media (max-width: 600px) {
       header {
         flex-direction: column;
@@ -111,7 +115,7 @@
 
       nav a {
         display: block;
-        margin: 10px 0;
+        margin: 15px 0;
       }
     }
   </style>
@@ -129,15 +133,30 @@
           <a href="#skills">Skills</a>
           <a href="#awards">Awards</a>
           <a href="#research">Research</a>
+          <a href="#teaching">Teaching</a>
+          <br>
+          <a href="https://scholar.google.com/citations?user=K2EzcRMAAAAJ&hl=en" target="_blank" style="color: #115272;">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/helen-mengxuan-wu-1434681ba/" target="_blank" style="color: #115272;">Linkedin</a>
+          <a href="https://github.com/Helen-Mengxuan" target="_blank" style="color: #115272;">Github</a>
         </nav>
       </div>
     </header>
 
 
     <section id="introduction">
-      Hi! I'm Helen, and I'm a third-year PhD student in Computational Neuroscience and Psychology. 
-
-      While my research primarily focuses on understanding how humans process narratives—such as stories and movies—using neuroimaging, I have a longstanding interest in Mathematics, Statistics, Data Science, and Machine Learning. I find it especially exciting to experiment with and apply both supervised and unsupervised learning methods to high-dimensional data. In the past, I have worked extensively with cutting-edge large language models, deep learning architectures, and hidden Markov models, using both Python and C++. In my free time, I enjoy skiing and watching movies.
+      Hi! I'm Helen, and I'm a <strong>3rd-year PhD</strong> student in <strong>Computational Neuroscience and Psychology</strong>. 
+      <br>
+      <br>
+      My research primarily focuses on (1) understanding how the <strong>human brain</strong> and <strong>large language models</strong> process continuous streams of information, and (2) developing <strong>encoding and decoding methods</strong> for neural activity. I primarily work with <strong>neuroimaging data</strong> and have over three years of experience working with magnetic resonance imaging <strong>(MRI)</strong> of the brain.
+      <br>
+      <br>
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010945225000759" target="_blank">Here</a> is my recent publication on <strong>using Hidden Markov Models to decode human brain activity</strong> related to event parsing while participants listened to two auditory stories. In the past, I have also worked on <a href="https://academic.oup.com/cercor/article/34/4/bhae122/7639057" target="_blank">decoding human emotional states</a> from fMRI data collected while participants watched two short animations designed to evoke mixed feelings. 
+      <br>
+      <br>
+      Recently, I have been investigating <strong>(1) which brain regions produce neural embeddings most similar to LLM embeddings</strong> during information processing, and <strong>(2) the dissociation between regions responsible for theory of mind and autobiographical memory</strong> within the medial default mode network. The default mode network (DMN) is a set of interconnected brain regions that are most active during internally focused processes such as self-referential thinking, imagining others’ mental states, and processing continuous information. 
+      <br>
+      <br>
+      Outside the field of neuroscience, I have a longstanding interest in mathematics, statistics, data science, and machine learning. When I’m not experimenting with supervised or unsupervised learning methods to analyze <strong>high-dimensional datasets</strong>, you can find me skiing or watching movies!
     </section>
 
 
@@ -160,25 +179,33 @@ BS: Neuroscience, Minor: Computer Science, GPA: 3.90
         <li><strong>Wu, H.</strong>, Vaccaro, A., & Kaplan, J. (2025). First-Person Spoken Narratives Elicit Consistent Event Structures in the Angular Gyrus. <em>Cortex</em>.</li>
         <li>Vaccaro, A. G., <strong>Wu, H.</strong>, Iyer, R., Shakthivel, S., Christie, N. C., Damasio, A., & Kaplan, J. T. (2024). Neural patterns associated with mixed valence feelings differ in consistency and predictability throughout the brain. <em>Cerebral Cortex</em>.</li>
         <li>Horner, S. B., Lulla, R., <strong>Wu, H.</strong>, Shaktivel, S., Vaccaro, A., Herschel, E., ... & Greening, S. G. (2024). Brain activity associated with emotion regulation predicts individual differences in working memory ability. <em>Cognitive, Affective, & Behavioral Neuroscience</em>.</li>
+        <li>Vaccaro, AG, Shakthivel, S., <strong>Wu, H.</strong>, Iyer, R., & Kaplan, J. Individual Differences in Feelings of Certainty Surrounding Mixed Emotions. <em>PLOS One, in press</em>.</li>
+
       </ul>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
-      <p><strong>Programming:</strong> Python (Pandas, Scikit-learn, Numpy, Scipy, PyTorch), C++ (OpenCV), MATLAB, HTML, R</p>
+      <p><strong>Programming:</strong> 
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp <strong>Python</strong> (Pandas, Scikit-learn, Numpy, Scipy, PyTorch, NiBabel, NiLearn, BrainIAK, H5py, Seaborn)
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp <strong>C++</strong> (OpenCV), <strong>MATLAB, HTML, R</strong></p>
+      <p><strong>Neuroimaging Data Processing:</strong> FSL, fMRIPrep, DeepPrep, FreeSurfer, FSLeyes, MRIcroGL</p>
       <p><strong>Languages:</strong> Native Mandarin, Fluent in English</p>
     </section>
 
     <section id="awards">
       <h2>Awards</h2>
       <ul>
-        <li>USC Discovery Scholar Prize Winner (10 recipients school-wide), <em>April 2023</em></li>
-        <li>USC Undergraduate Symposium, 2nd Prize in Social Science (sole recipient), <em>April 2023</em></li>
-        <li>USC Undergraduate Symposium, Interdisciplinary Award in Life Science (sole recipient), <em>April 2022</em></li>
+        <li>USC Discovery Scholar Prize <strong>Winner</strong> (10 recipients school-wide), <em>April 2023</em></li>
+        <li>USC Undergraduate Symposium, <strong>2nd Prize</strong> in Social Science (sole recipient), <em>April 2023</em></li>
+        <li>USC Undergraduate Symposium, <strong>Interdisciplinary Award</strong> in Life Science (sole recipient), <em>April 2022</em></li>
       </ul>
 
       <h3>Fellowships</h3>
       <ul>
+        <li>Doctoral Research Grant Awards, <em>2024-2025</em></li>
         <li>Ng Family Fellowship in Computational Neuroscience (sole recipient), <em>2022-2023</em></li>
         <li>USC Provost's Research Fellowship, <em>2022 - 2023</em></li>
       </ul>
@@ -186,21 +213,46 @@ BS: Neuroscience, Minor: Computer Science, GPA: 3.90
 
     <section>
       <h2>Relevant Coursework</h2>
-      <p>Professional C++, Discrete Methods in Computer Science, Data Structures and Object Oriented Design, Algorithms and Theory of Computing, Machine Learning and Large Language Models, Robotics, Linear Algebra and Linear Differential Equations, Probability and Statistics, Data Science in Neuroimaging</p>
+      <p>Professional C++, Discrete Methods in Computer Science, Data Structures and Object Oriented Design, Algorithms and Theory of Computing, Machine Learning and Large Language Models, Robotics, Linear Algebra and Linear Differential Equations, Probability and Statistics, Data Science in Neuroimaging, Text as Data, Functional Neuroanatomy, Computational Models of Cognition, Quantitative Psychology, Decision Neuroscience</p>
     </section>
 
     <section id="research">
       <h2>Research Experience</h2>
-      <div class="section-text">
-<b>Kaplan Lab, USC Brain and Creativity Institute</b>  
-<em>Aug 2021 - Present</em>
-• Developed and implemented methods for comparing language processing in large language models and the human brain.  
-• Applied Hidden Markov Models and MVPA to 4D fMRI data to model and predict brain state and between-brain patterns during naturalistic narrative comprehension.  
-• Programmed a Scantron system for the NEO-FFI-3 Personality Inventory to automate scoring and expedite data processing.  
 
-<b>Rodent Behavior Analysis Lab, Southern University of Science and Technology (Shenzhen, China)</b>  
-<em>Aug 2020 - Aug 2023</em>  
-• Developed an auto-assessment system for rodent behavior using SLEAP, computer vision (C++/Python), and the Interframe Difference method.  
+        <b>Cognitive NeuroImaging Lab, Brain and Creativity Institute, University of Southern California</b>  
+        <br>
+        <em>Aug 2021 - Present | PI: Dr. Jonas Kaplan</em>
+        <br>
+          <ul>
+            <li>Applied Hidden Markov Models on fMRI data to reveal how the brain segments continuous auditory narratives.</li>
+            <li>Identified angular gyrus as a key hub for cross-modal event segmentation.</li>
+            <li>Specialized in voxel-wise, Searchlight, and multivariate pattern analyses, signal quality control, and neuroimaging preprocessing using Python, FSL, fMRIPrep, DeepPrep.</li>
+            <li>Experienced in LLM–brain alignment research.</li>
+            <li>Conducted cross-modal analyses of text and audio behavioral data to reveal shared and distinct patterns in how people parse information.</li>
+            <li>Built a Scantron system for the NEO-FFI-3 Personality Inventory to automate scoring and accelerate data processing.</li>
+            <li>Used ALFF (Amplitude of Low Frequency Fluctuation) and autocorrelation analyses to compare narrative processing and resting-state brain dynamics.</li>
+            <li>Executed high-throughput parallel processing and analysis of 7T MRI data (180 HCP participants) using cloud computing clusters.</li>
+            <li>Developed a Python-based brain image viewer using Tkinter and NiBabel to streamline quality control of neuroimages.</li>
+            <li>Produced interactive visualizations of brain neuroimaging results with FSLEyes, MRIcroGL, and FreeSurfer.</li>
+            <li>Conducted more than 50 hours of fMRI scanning.</li>
+            <li>Screened, scheduled and communicated with participants for fMRI scans and behavioral trials.</li>
+          </ul>
+
+      <br>
+      <b>Rodent Behavior Analysis Lab, Southern University of Science and Technology (Shenzhen, China)</b>
+      <br>
+      <em>Aug 2020 - Aug 2023 | PI: Dr. Fangyi Chen</em>  
+      <br>
+      <ul>
+        <li>Developed an auto-assessment system for rodent behavior using SLEAP, computer vision (C++/Python), and the Interframe Difference method.</li> 
+      </ul>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching Experience</h2>
+      <div class="section-text">
+• Teaching Assistant (2 years) for courses including <em>Introduction to Cognitive Neuroscience, Music and the Brain, Statistics for Psychology, and Experimental Methods in Psychology</em>.
+• Mentored 5 undergraduate research assistants on projects involving <em>behavioral and neural data collection, coding, and machine learning</em>.  
       </div>
     </section>
 
